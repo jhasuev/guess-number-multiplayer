@@ -9,7 +9,136 @@
 </head>
 <body>
 
-  
+  <div class="container py-3">
+    <div class="row  justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Отгадай число
+            </h2>
+            <div class="pt-2">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-dark" type="button">Создать игру</button>
+                <button class="btn btn-dark" type="button">Подключиться к игре</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Создать игру
+            </h2>
+            <div class="pt-2">
+              <div class="mb-3">
+                <label for="createName" class="form-label">Название комнаты</label>
+                <input type="email" class="form-control" id="createName" placeholder="Она и я...">
+              </div>
+              <div class="mb-3">
+                <label for="min" class="form-label">Минимальное число</label>
+                <input type="number" class="form-control" id="min" value="0" min="0">
+              </div>
+              <div class="mb-3">
+                <label for="max" class="form-label">Максимальное число</label>
+                <input type="number" class="form-control" id="max" value="100" min="50">
+              </div>
+              <button class="btn  btn-dark">Создать новую игру</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Подключиться к игре
+            </h2>
+            <div class="pt-2">
+              <div class="mb-3">
+                <label for="createName" class="form-label">ID комнаты</label>
+                <input type="email" class="form-control" id="createName" placeholder="227">
+              </div>
+              <button class="btn  btn-dark">Подключиться к игре</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Противник загадывает число, ждите...
+            </h2>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Отгадайте число противника
+            </h2>
+            <div class="pt-2">
+              <div class="mb-3">
+                <label for="guessNumber" class="form-label">Предполагаемое число</label>
+                <input type="number" class="form-control" id="guessNumber" value="100" min="0" max="100">
+                <b>всего попыток: 13</b>
+              </div>
+              <button class="btn  btn-dark">Попробовать!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Ура! Вы отгадали!
+            </h2>
+            <div class="pt-2">
+              <div class="mb-3">
+                <b>всего попыток: 14</b>
+              </div>
+              <button class="btn  btn-dark">Загадать число для противника!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Загадай число для противника
+            </h2>
+            <div class="pt-2">
+              <div class="mb-3">
+                <label for="guessNumber" class="form-label">Загадываемое число</label>
+                <input type="number" class="form-control" id="guessNumber" value="100" min="0" max="100">
+              </div>
+              <button class="btn  btn-dark">Загадать!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-body">
+            <h2 class="card-title  text-center">
+              Статистика противника
+            </h2>
+            <div class="pt-2">
+              <div class="alert alert-danger">
+                Противник ввёл число <b>47</b>
+              </div>
+              <div class="alert alert-danger">
+                Противник ввёл число <b>56</b>
+              </div>
+              <div class="alert alert-success">
+                Противник ввёл число <b>93</b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
