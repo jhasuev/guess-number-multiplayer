@@ -1,0 +1,10 @@
+{
+  "name": "GuessNumberMultiplayer",
+  "version": "1.0.0",
+  "description": "My Node.js multiplayer game",
+  "dependencies": {
+    "socket.io": "0.9",
+    "express": "3.5.0"
+  },
+  "author": "Jamal Hasuev"
+}
