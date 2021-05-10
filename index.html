@@ -44,7 +44,9 @@
                 <label for="max" class="form-label">Максимальное число</label>
                 <input type="number" class="form-control" id="max" value="100" min="50">
               </div>
-              <button class="btn  btn-dark">Создать новую игру</button>
+              <div class="text-end">
+                <button class="btn  btn-dark">Создать новую игру</button>
+              </div>
             </div>
           </div>
         </div>
@@ -59,7 +61,9 @@
                 <label for="createName" class="form-label">ID комнаты</label>
                 <input type="email" class="form-control" id="createName" placeholder="227">
               </div>
-              <button class="btn  btn-dark">Подключиться к игре</button>
+              <div class="text-end">
+                <button class="btn  btn-dark">Подключиться к игре</button>
+              </div>
             </div>
           </div>
         </div>
@@ -81,9 +85,13 @@
               <div class="mb-3">
                 <label for="guessNumber" class="form-label">Предполагаемое число</label>
                 <input type="number" class="form-control" id="guessNumber" value="100" min="0" max="100">
-                <b>всего попыток: 13</b>
+                <div class="pt-1">
+                  Всего попыток: <b>13</b>
+                </div>
               </div>
-              <button class="btn  btn-dark">Попробовать!</button>
+              <div class="text-end">
+                <button class="btn  btn-dark">Попробовать!</button>
+              </div>
             </div>
           </div>
         </div>
@@ -94,10 +102,12 @@
               Ура! Вы отгадали!
             </h2>
             <div class="pt-2">
-              <div class="mb-3">
-                <b>всего попыток: 14</b>
+              <div class="mb-3  text-center">
+                Всего попыток: <b>14</b>
               </div>
-              <button class="btn  btn-dark">Загадать число для противника!</button>
+              <div class="text-end">
+                <button class="btn  btn-dark">Загадать число для противника!</button>
+              </div>
             </div>
           </div>
         </div>
@@ -112,7 +122,9 @@
                 <label for="guessNumber" class="form-label">Загадываемое число</label>
                 <input type="number" class="form-control" id="guessNumber" value="100" min="0" max="100">
               </div>
-              <button class="btn  btn-dark">Загадать!</button>
+              <div class="text-end">
+                <button class="btn  btn-dark">Загадать!</button>
+              </div>
             </div>
           </div>
         </div>
