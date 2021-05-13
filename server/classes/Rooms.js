@@ -44,10 +44,11 @@ module.exports = class Rooms {
 
   makeGuessNumber(roomID, number, socket) {
     const game = this.getRoomByID(roomID).game
+    const nextUserID = this.getNextUserID(roomID)
 
     game.push({
       number,
-      user: this.getNextUserID(roomID),
+      user: nextUserID,
       guesses: []
     })
 
